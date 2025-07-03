@@ -1,13 +1,14 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+const apiKey = process.env.FIREBASE_API_KEY
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDxm6YvnKPxG9aWUyZ-QQcRT7rjsbCMgA8",
+  apiKey: apiKey,
   authDomain: "movies-gpt-2736b.firebaseapp.com",
   projectId: "movies-gpt-2736b",
   storageBucket: "movies-gpt-2736b.firebasestorage.app",
